@@ -21,8 +21,7 @@ const char *weatherDescription;
 char api_key[33];
 unsigned long unixTime;
 byte offset;
-char ssid[33]="In Tyler We Trust", pass[33]="spacemonkey";
-//char *ssid,*pass;
+char ssid[33]="placeholder", pass[33]="placeholder";
 
 void setup() {
   delay(1000);
